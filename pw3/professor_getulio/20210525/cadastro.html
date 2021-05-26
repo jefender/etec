@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Visitantes</title>
+</head>
+<body>
+    <h1>Cadastro de usuários do Site</h1>
+    <br>
+    <form action="verifica.php" method="POST">
+    <pre>
+    Insira as informações para efetuar o cadastro e deixe seu comentário.
+    <br>
+    Nome:   <input type="text" size="35" maxlength="256" name="nome"> 
+    E-mail: <input type="text" size="35" maxlength="256" name="email">
+    Cidade: <input type="text" size="35" maxlength="256" name="cidade">
+    Estado: <input type="text" size="2" maxlength="2" name="estado">
+    <br>    
+    Digite sua opnião sobre o site no espaço abaixo:
+    <br>
+    <textarea rows="5" cols="42" name="comentarios"></textarea>
+    <br>  
+    <input type="submit" value="Efetuar Cadastro" name="enviar">
+    </pre>
+    </form>   
+</body>
+</html>
